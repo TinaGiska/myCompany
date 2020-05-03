@@ -298,6 +298,18 @@ section.gallery {
   height: 100vh;
 }
 
+textarea {
+  color: #7F7F7F;
+  border-color: #D86C82;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.research {
+  background-color: #256658;
+  color: #256658;
+}
+
 .page-footer {
   background: #e8ecec;
   padding: 12px 0;
