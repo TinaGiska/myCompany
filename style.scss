@@ -201,7 +201,7 @@ section {
 }
 
 section.gallery {
-  padding: 60px 20px;
+  padding: 60px;
   text-align: center;
 }
 
@@ -215,8 +215,8 @@ section.gallery {
 .gallery-item {
   position: relative;
   margin: 20px;
-  flex: 25%;
-  max-width: 25%;
+  flex: 33%;
+  max-width: 33%;
   text-align: center;
 }
 
@@ -280,7 +280,7 @@ section.gallery {
 
 .social-links li {
   display: inline-block;
-  border: 1px solid $color-main;
+  border: 2px solid $color-main;
   width: 30px;
   height: 30px;
   line-height: 30px;
