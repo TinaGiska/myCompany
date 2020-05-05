@@ -18,6 +18,11 @@ body, html {
 
 a, a:hover {
   text-decoration: none;
+  color: #2D4B4D;
+}
+
+a:hover {
+  text-decoration: none;
   color: #f7f1e3;
 }
 
@@ -151,11 +156,6 @@ section {
   text-transform: uppercase;
 }
 
-.feature-description {
-  margin: 24px 0 0 0;
-  padding: 0 24px;
-}
-
 .statement {
   background-image: url(images/bg3.jpg);
   background-repeat: no-repeat;
@@ -191,11 +191,12 @@ section {
 
 section.gallery {
   padding: 60px 20px;
+  text-align: center;
 }
 
 .gallery-wrapper {
   display: flex;
-  margin: 72px 20px;
+  margin: 72px 0px;
   text-align: center;
 }
 
@@ -303,11 +304,6 @@ textarea {
   border-color: #D86C82;
   border-radius: 5%;
   padding: 5px;
-}
-
-.research {
-  background-color: #256658;
-  color: #256658;
 }
 
 .page-footer {
